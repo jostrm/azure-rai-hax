@@ -1,4 +1,5 @@
-# TODO
+# SCENARIO 1: `Responsible AI Dashboard` and `Scorecard` i Azure machine learning for: TABULAR, TEXT, IMAGES
+
 
 # Use subset of howto from this repo
 
