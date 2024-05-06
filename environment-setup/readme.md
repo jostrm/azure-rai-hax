@@ -57,7 +57,8 @@ workspace = "<AML_WORKSPACE_NAME>"
 
 ```
 
-8) 
+8) Run the notebook.
+If any errors or trouble - get in contact with the mentors.
 
 
 

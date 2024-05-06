@@ -2,12 +2,18 @@
 
 # ABOUT THIS Lab
 
-In this lab there is 3 TASKS.
+This LAB will cover the **Responsible AI Dashboard** tooling in Azure Machine Learning that you can read more about here at the Microsoft documentation. 
 
-### TASK 1 - Run the learning module, to get familiar with Responsible AI
-- Here a SAndbox environment will ge provided.
+https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai?view=azureml-api-2
 
-### TASK 2 - Run the lab from GITHUB, to be able to adjust scenarios
+In this lab there is 2 TASKS:
+
+### About TASK 1 - Run the learning module, 
+Here a Sandbox environment is provided, and you will  get familiar with Responsible AI.
+
+### About TASK 2 - Run the lab from GITHUB, to be able to adjust scenarios
+
+Here you may use the Sandbox, or your own Azure machine learning workspace.
 
 You will be able to choose a DEMO scenario, run a notebook that generated 2 artifacts, pipelines: 
 
@@ -15,9 +21,7 @@ You will be able to choose a DEMO scenario, run a notebook that generated 2 arti
 
 - 2nd pipeline will GENERATE the RAI Dashboard
 
-You can then use the dashboard to draw different conclusions. 
-
-You can then pick another scenario, or pick your own scenario.
+You can then use the dashboard to draw different conclusions. You can then pick another scenario, or pick your own scenario.
 
 ### Solution scenario "conceptiual view"
 

@@ -23,6 +23,11 @@ A conceptual view - to put the lab in context. Below is a possible scenario, tha
 
 ![Alt text](./images/scenario-02-3.png)
 
+### VIDEO - Mehrnoosh Sameki presents the tooling
+
+https://youtu.be/3Fz8FEujD1U?feature=shared&t=1762
+
+
 # Task 1:Set up your project in Azure AI Studio
 As prerequisite for this lab you need to set up a project in Azure AI Studio(https://ai.azure.com/) and provision the required resources.
 
