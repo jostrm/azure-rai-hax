@@ -1,17 +1,33 @@
 # SCENARIO 1 - Azure ML environment
 
-## Option 1 - Use provided sandbox Azure environment
+## Option 1 - SANDBOX: Use provided sandbox Azure environment
 
 https://aka.ms/rai-hub/dashboard-workshop
 
-TIP! 
-- Click thorugh the learning module, until Sandbox environment is optional. 
+- Directlink to learning module: https://learn.microsoft.com/en-us/training/modules/train-model-debug-with-responsible-ai-dashboard-azure-machine-learning/?WT.mc_id=aiml-114127-cxa
+
+- Directlink to SANDBOX environment: https://learn.microsoft.com/en-us/training/modules/train-model-debug-with-responsible-ai-dashboard-azure-machine-learning/7-lab-train-debug-model
+
+
+1) Login with Azure user to Learning module
+2) Login with Sandbox user to start Sandbox VM
+-  Click thorugh the learning module, until Sandbox environment is optional. 
 - Login, with credentials. Cick the T sympbol, and the password will be auto-written.
     - Click Resources (see image), there you have your username and password.
-
-Credentials is found on the right pane, under "RESOURCES" tab: 
+    Credentials is found on the right pane, under "RESOURCES" tab: 
 
 ![Alt text](./images/sandbox-01.png)
+
+3) Create an Azure Machine Learning workspace, int the resource group "rg-ms-learn"
+- Resource group (already created): `rg-ms-learn`
+- Example name: **aml-azure-raihax-001**
+- Region: US-East
+- Container registry: None
+4) Verify that it looks similar like below, the click Review+Create, and Create again.
+
+![Alt text](./images/sandbox-04.png)
+
+# TIP - CHANGE KEYBOARD LANGUAGE  - if you don't want English keyboard: 
 
 - Optional: Change language for your keyvoard, to Swedish
     - 1) Click Windows icon, search "Keyvboard language" to be able to add languange. 
