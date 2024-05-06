@@ -17,8 +17,6 @@ This repo provides data & scenarios with walkthrough, and agenda, to be used at 
 # AGENDA "Live agenda"
 [AGENDA](./instructions/10-agenda.md)
 
-## MORE INFO: PDF Details
-
 [Hackathon- more info](./hack-info/readme.md)
 
 
