@@ -46,18 +46,18 @@ How to setup environment, and how to clone the repo:
 ## CHOOSE SUB-SCENARIO:
 Choose from TABULAR, IMAGE, TEXT and any scenarios.
 Recommended scenarios: 
-    - TABULAR: 
-        - "Housing": Classification
-            - https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-housing-classification-model-debugging/responsibleaidashboard-housing-classification-model-debugging.ipynb
-        - "Healthcare - Covid" : Classification
-            - https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-healthcare-covid-classification/responsibleaidashboard-healthcare-covid-classification.ipynb
+- TABULAR: 
+    - "Housing": Classification
+        - https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-housing-classification-model-debugging/responsibleaidashboard-housing-classification-model-debugging.ipynb
+    - "Healthcare - Covid" : Classification
+        - https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-healthcare-covid-classification/responsibleaidashboard-healthcare-covid-classification.ipynb
         
-    - TEXT:"Financial news": Classification
-        - https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/text/responsibleaidashboard-text-classification-financial-news/responsibleaidashboard-text-classification-financial-news.ipynb
+- TEXT:"Financial news": Classification
+    - https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/text/responsibleaidashboard-text-classification-financial-news/responsibleaidashboard-text-classification-financial-news.ipynb
 
-    - IMAGE: "Fridge items": Classification, Object detection
-        - https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/vision/responsibleaidashboard-image-classification-fridge.ipynb
-        - https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/vision/responsibleaidashboard-object-detection-MSCOCO.ipynb
+- IMAGE: "Fridge items": Classification, Object detection
+    - https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/vision/responsibleaidashboard-image-classification-fridge.ipynb
+    - https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/vision/responsibleaidashboard-object-detection-MSCOCO.ipynb
 
 - FYI: DEMO use case the MENTOR rubs: "Loan" : Classification
     - Just FYI. Do not use the below. Since it would be boring to see the same=
