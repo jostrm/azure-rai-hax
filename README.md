@@ -9,8 +9,9 @@ This repo provides data & scenarios with walkthrough, and agenda, to be used at 
 # QUICKSTART - I want to hack now!
 
 Get started: Choose scenario 1 or 2. You can do both, in whatever order you like. 
-    - [Scenario 1 ](./instructions/scenarios/scenario-1-rai-dashboard.md)
-    - [Scenario 2 ](./instructions/scenarios/scenario-1-rai-dashboard.md)
+
+- [Scenario 1 ](./instructions/scenarios/scenario-1-rai-dashboard.md)
+- [Scenario 2 ](./instructions/scenarios/scenario-1-rai-dashboard.md)
 
 # GOAL with this hackathon "Azure RAI Hax"
 - Learn RAI  tooling
