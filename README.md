@@ -1,3 +1,9 @@
+# QUICKSTART - I want to hack now!
+
+- Choose scenario 1 or 2. You can do both, in whatever order you like. 
+    - [Scenario 1 ](./instructions/scenarios/scenario-1-rai-dashboard.md)
+    - [Scenario 2 ](./instructions/scenarios/scenario-1-rai-dashboard.md)
+
 # Azure-RAI-Hax
 Azure Responsible AI hackathon - AI Studio GenAI evalution metrics and Azure Machine Learning RAI dashboard.
 
@@ -7,6 +13,14 @@ This repo provides data & scenarios with walkthrough, and agenda, to be used at 
 - Learn RAI  tooling
 - Networking with fellow peers
 - Have fun doing it
+
+# AGENDA "Live agenda"
+[AGENDA](./instructions/10-agenda.md)
+
+## MORE INFO: PDF Details
+
+[Hackathon- more info](./hack-info/readme.md)
+
 
 # SCENARIOS & DATA
 
