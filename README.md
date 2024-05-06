@@ -19,7 +19,7 @@ Get started: Choose scenario 1 or 2. You can do both, in whatever order you like
 - Have fun doing it
 
 # AGENDA "Live agenda"
-[AGENDA](./instructions/10-agenda.md)
+["Live" agenda](./instructions/10-agenda.md)
 
 [Hackathon- more info](./hack-info/readme.md)
 
