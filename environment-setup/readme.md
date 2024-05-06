@@ -27,6 +27,12 @@ https://aka.ms/rai-hub/dashboard-workshop
 
 ![Alt text](./images/sandbox-04.png)
 
+5) Start Azure Machine Learning Studio, and create a Compute Instance
+- Example name: ci-azure-rai-hax-001-a
+- SKU: **Standard_E4ds_v4**
+
+6) Go to NOTEBOOKS in Azure Machine Learning Studio, and CLONE the REPO: same as: [Option 2 - Bring-your-own-environment](#option-2---bring-your-own-environment)
+
 # TIP - CHANGE KEYBOARD LANGUAGE  - if you don't want English keyboard: 
 
 - Optional: Change language for your keyvoard, to Swedish
@@ -48,13 +54,13 @@ You should be able to select language at the TASKBAR now, as below:
 - Open EDGE webbrowser, and signin to Azure portal with sandbox username and password
 - Go to RESOURCE GROUP **rg-ms-learn** , and create an Azure Machine Learning workspace
 
-## Option 2 - Bring your own environment
+## Option 2 - Bring-your-own-environment
 
 1) Create Azure Machien Learning Workspace
 2) Create a Compute Instance (default settings)
 3) Go to NOTEBOOKS
 4) Open TERMINAL
-5) Clonee the REPO 
+5) Clone the REPO 
 - TIP: If you clone with "SPARSE CHECKOUT" it goes quicker
 ```python
 # Clone the repository into a new directory
