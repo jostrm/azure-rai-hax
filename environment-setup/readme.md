@@ -61,7 +61,13 @@ You should be able to select language at the TASKBAR now, as below:
 3) Go to NOTEBOOKS (see IMAGE 2)
 4) Open TERMINAL (see IMAGE 3)
 5) Clone the REPO 
-- TIP: If you clone with "SPARSE CHECKOUT" it goes quicker
+```python
+
+git clone --branch main https://github.com/Azure/azureml-examples.git
+
+```
+
+- Advanced tip: May not work on Compute instance! ("SPARSE CHECKOUT" to save time)
 ```python
 # Clone the repository into a new directory
 git clone --no-checkout --filter=blob:none --branch main https://github.com/Azure/azureml-examples.git
