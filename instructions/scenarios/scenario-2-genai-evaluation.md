@@ -10,6 +10,8 @@
 # About this lab
 In this lab we will explore the generative AI evaluation dashboard in Azure AI Studio. You will first build a RAG application based on some sample data. It is a chatbot for **Contoso Outdoor shop** and you can ask questions regarding the product catalog as well as customer purchase histories.
 
+DOCS - Evaluation in AI Studio: https://learn.microsoft.com/en-us/azure/ai-studio/concepts/evaluation-approach-gen-ai
+
 ### Solution scenario - "conceptiual view"
 A conceptual view - to put the lab in context. Below is a possible scenario, that also includes a Chatbot front end.
 

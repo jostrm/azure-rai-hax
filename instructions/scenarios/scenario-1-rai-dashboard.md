@@ -4,7 +4,7 @@
 
 This LAB will cover the **Responsible AI Dashboard** tooling in Azure Machine Learning that you can read more about here at the Microsoft documentation. 
 
-https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai?view=azureml-api-2
+DOCS - Responsible AI Dashboard: https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai?view=azureml-api-2
 
 In this lab there is 2 TASKS:
 
