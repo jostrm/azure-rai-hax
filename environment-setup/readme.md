@@ -1,8 +1,36 @@
-# SCENARIO 1 - Azure environment
+# SCENARIO 1 - Azure ML environment
 
 ## Option 1 - Use provided sandbox Azure environment
 
 https://aka.ms/rai-hub/dashboard-workshop
+
+TIP! 
+- Click thorugh the learning module, until Sandbox environment is optional. 
+- Login, with credentials. Cick the T sympbol, and the password will be auto-written.
+    - Click Resources (see image), there you have your username and password.
+
+Credentials is found on the right pane, under "RESOURCES" tab: 
+
+![Alt text](./images/sandbox-01.png)
+
+- Optional: Change language for your keyvoard, to Swedish
+    - 1) Click Windows icon, search "Keyvboard language" to be able to add languange. 
+    - 2) See image: It should be a button "Add lanugage" on the tab "Time & Languages"
+
+TODO: 
+
+![Alt text](./images/sandbox-03.png)
+
+- Signout
+- Singin again
+
+You should be able to select language at the TASKBAR now, as below: 
+
+![Alt text](./images/sandbox-02.png)
+
+
+- Open EDGE webbrowser, and signin to Azure portal with sandbox username and password
+- Go to RESOURCE GROUP **rg-ms-learn** , and create an Azure Machine Learning workspace
 
 ## Option 2 - Bring your own environment
 
@@ -59,6 +87,18 @@ workspace = "<AML_WORKSPACE_NAME>"
 
 8) Run the notebook.
 If any errors or trouble - get in contact with the mentors.
+
+
+# SCENARIO 2 - AI Studio environment
+
+1) Set up your project in Azure AI Studio
+- As prerequisite for this lab you need to set up a project in Azure AI Studio(https://ai.azure.com/) and provision the required resources.
+
+Make sure you have created the following resources:
+- An Azure OpenAI resource
+- An AI search resource
+  
+You'll need to deploy a chat completions model (e.g. GPT-3.5-turbo 1106) and a text embedding model (e.g. text-embedding-ada-002). Do this in the "deployment" tab in your AI studio project.
 
 
 
