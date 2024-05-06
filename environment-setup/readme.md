@@ -56,10 +56,10 @@ You should be able to select language at the TASKBAR now, as below:
 
 ## Option 2 - Bring-your-own-environment
 
-1) Create Azure Machien Learning Workspace
-2) Create a Compute Instance (default settings)
-3) Go to NOTEBOOKS
-4) Open TERMINAL
+1) Create Azure Machine Learning Workspace
+2) Create a Compute Instance, default settings. (see IMAGE 1)
+3) Go to NOTEBOOKS (see IMAGE 2)
+4) Open TERMINAL (see IMAGE 3)
 5) Clone the REPO 
 - TIP: If you clone with "SPARSE CHECKOUT" it goes quicker
 ```python
@@ -79,6 +79,11 @@ git sparse-checkout set <dir>
 git pull origin main
 
 ```
+
+IMAGE: 
+
+![Alt text](./images/terminal-clone-05.png)
+
 
 6) Choose scenario - Recommended scenarios: 
     - TABULAR: 
