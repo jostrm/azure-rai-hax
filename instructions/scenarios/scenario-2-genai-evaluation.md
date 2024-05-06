@@ -8,7 +8,7 @@
 
 
 # About this lab
-In this lab we will explore the generative AI evaluation dashboard in Azure AI Studio. You will first build a RAG application based on some sample data. It is basically a chatbot for **Contoso Outdoor shop** and you can ask questions regarding the product catalog as well as customer purchase histories.
+In this lab we will explore the generative AI evaluation dashboard in Azure AI Studio. You will first build a RAG application based on some sample data. It is a chatbot for **Contoso Outdoor shop** and you can ask questions regarding the product catalog as well as customer purchase histories.
 
 # Task 1:Set up your project in Azure AI Studio
 As prerequisite for this lab you need to set up a project in Azure AI Studio(https://ai.azure.com/) and provision the required resources.
@@ -26,7 +26,7 @@ You'll need to deploy a chat completions model (e.g. GPT-3.5-turbo 1106) and a t
 4. Repeat step 2-3 but this time build another index called e.g. "customer-index" using CUSTOMER DATA. An example question to test the RAG works is "What did John Smith buy?", but feel free to explore other questions by looking at Customer data files.
 
 # Task 3:Test manual evaluation feature 
-Go to the **Playground tab and make sure you have product-data selected in "Add your data". Then click on **Evaluation** button. Here you can performn manual evaluation of your application. Input some input/expected reponse value and run to see the model reponse in the output. You could also use a jsonl file to import test data. A human evaluator could give thumbup/thumdown to check how well the RAG feature works.The result could be exportet for furthur analysis.
+Go to the **Playground tab and make sure you have product-data selected in "Add your data". Then click on **Evaluation** button. Here you can performn manual evaluation of your application. Input some input/expected reponse value and run to see the model reponse in the output. You could also use a jsonl file to import test data (**manual test file** in the folder). A human evaluator could give thumbup/thumdown to check how well the RAG feature works.The result could be exportet for furthur analysis.
 
 # Task 3:Create a prompt flow for product-index only
 Go to the **Playground** tab and make sure you have product-data selected in "Add your data". Then click on **Prompt flow** button. It will automatically create a prompt flow object for you. 
@@ -36,7 +36,7 @@ Go to the **Playground** tab and make sure you have product-data selected in "Ad
 In this lab we will focus on the evaluation feature of prompt flow.
 
 # Task 4:Run RAI evaluation for product-index only flow
-At your prompt flow created in the previous step, go to **Evaluation** tab under Tools. Here you could follow the wizard and create your evaluation. Use the test data in EVALUATION DATA folder of this repo. Explore groundedness, relevance, coherence, fluency, GPT similarity, F1score and the other content satety matrixs. Spend some time to understand what these metrics mean. 
+At your prompt flow created in the previous step, go to **Evaluation** tab under Tools. Here you could follow the wizard and create your evaluation. Use the test data in EVALUATION DATA folder (Contoso Test Data 3.jsonl) of this repo. Explore groundedness, relevance, coherence, fluency, GPT similarity, F1score and the other content satety matrixs. Spend some time to understand what these metrics mean. 
 
 You could see how your flow works by e.g.using the **chat** functionality (make sure you have your automatic runtime running). Or for debugging purpose it's help to run the box one by one by clicking the "run" icon for each of them sequentially. In this way you get to monitor the output for each step.
 
