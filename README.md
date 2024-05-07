@@ -11,7 +11,7 @@ This repo provides data & scenarios with walkthrough, and agenda, to be used at 
 Get started: Choose scenario 1 or 2. You can do both, in whatever order you like. 
 
 - [Scenario 1 - RAI dashboard in Azure ML](./instructions/scenarios/scenario-1-rai-dashboard.md)
-- [Scenario 2 - GenAI Evaluation in AI Studio](./instructions/scenarios/scenario-1-rai-dashboard.md)
+- [Scenario 2 - GenAI Evaluation in AI Studio](./instructions/scenarios/scenario-2-genai-evaluation.md)
 
 # GOAL with this hackathon "Azure RAI Hax"
 - Learn RAI  tooling

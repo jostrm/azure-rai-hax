@@ -10,13 +10,13 @@
 
 11:15 – 11:30 Teams announcement, Use case selection, Datasets
 - Choose scenario 1 or 2. You can do both, in whatever order you like. 
-    - [Scenario 1 ](./scenarios/scenario-1-rai-dashboard.md)
-    - [Scenario 2 ](./scenarios/scenario-1-rai-dashboard.md)
+    - [Scenario 1 - RAI dashboard in Azure ML](./instructions/scenarios/scenario-1-rai-dashboard.md)
+    - [Scenario 2 - GenAI Evaluation in AI Studio](./instructions/scenarios/scenario-2-genai-evaluation.md)
 
 11:30-12:00 HACK pt1
 - Work on your chosen scenario (You can do both, in whatever order you like)
-    - [Scenario 1 ](./scenarios/scenario-1-rai-dashboard.md)
-    - [Scenario 2 ](./scenarios/scenario-1-rai-dashboard.md)
+    - [Scenario 1 - RAI dashboard in Azure ML](./instructions/scenarios/scenario-1-rai-dashboard.md)
+    - [Scenario 2 - GenAI Evaluation in AI Studio](./instructions/scenarios/scenario-2-genai-evaluation.md)
 
 `12:00-13:00 LUNCH`
 
