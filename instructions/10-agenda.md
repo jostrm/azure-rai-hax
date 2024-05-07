@@ -24,9 +24,9 @@
 
 `14:00-14:20 BREAK (coffee & sandwich)`
 
-14:20-16:00 HACK pt3
+14:20-15:45 HACK pt3
 
-15:40-16:20 TEAM presentations. 10-15min each
+15:45-16:20 TEAM presentations. 10-15min each
 - Team 1 - E.
 - Team 2 - S.
 - Team 3 - V.
