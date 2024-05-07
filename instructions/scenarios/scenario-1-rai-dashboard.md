@@ -60,6 +60,7 @@ Recommended scenarios:
     - https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/text/responsibleaidashboard-text-classification-financial-news/responsibleaidashboard-text-classification-financial-news.ipynb
 
 - IMAGE: "Fridge items": Classification, Object detection
+    - NB! "Bring your own environment needed" - since GPU's are needed for this scenario.
     - https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/vision/responsibleaidashboard-image-classification-fridge.ipynb
     - https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/vision/responsibleaidashboard-object-detection-MSCOCO.ipynb
 

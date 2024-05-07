@@ -26,9 +26,12 @@
 
 14:20-16:00 HACK pt3
 
-16:00-16:45 TEAM presentations
+15:40-16:20 TEAM presentations. 10-15min each
+- Team 1 - E.
+- Team 2 - S.
+- Team 3 - V.
 
-16:45-17:00 Q&A summary from the day
+16:20-16:30 Q&A summary from the day
 
-17:00 -19:30 Networking
+16:30 -19:30 Pizza & Networking
 
