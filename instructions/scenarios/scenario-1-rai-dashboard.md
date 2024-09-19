@@ -9,11 +9,11 @@ DOCS - Responsible AI Dashboard: https://learn.microsoft.com/en-us/azure/machine
 In this lab there is 2 TASKS:
 
 ### About TASK 1 - Run the learning module, 
-Here a Sandbox environment is provided, and you will  get familiar with Responsible AI.
+You will  get familiar with Responsible AI.
 
 ### About TASK 2 - Run the lab from GITHUB, to be able to adjust scenarios
 
-Here you may use the Sandbox, or your own Azure machine learning workspace.
+Here you will use your own Subscription, and create your own Azure machine learning workspace.
 
 You will be able to choose a DEMO scenario, run a notebook that generated 2 artifacts, pipelines: 
 
@@ -36,7 +36,9 @@ The RAI dashboard is included in the MLOps process, to be generated after each r
 ![Alt text](./images/scenario-01-2.png)
 
 
-# Task 1 - Finnish the learning module (Sandbox evnironment provided)
+# Task 1 - Finnish the learning module
+
+The Sandbox environment, is often "temporary unavailable" as of 2024-09 - hence bring your own Subscription.
 
 https://learn.microsoft.com/en-us/training/modules/train-model-debug-with-responsible-ai-dashboard-azure-machine-learning/?WT.mc_id=aiml-114127-cxa
 
