@@ -58,7 +58,7 @@ Recommended scenarios:
     - "Healthcare - Covid" : Classification
         - https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-healthcare-covid-classification/responsibleaidashboard-healthcare-covid-classification.ipynb
         
-- TEXT:"Financial news": Classification
+- TEXT:"Covid Emergency Events": Mulitlabel Text Classification
     - https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/text/responsibleaidashboard-text-classification-financial-news/responsibleaidashboard-text-classification-financial-news.ipynb
 
 - IMAGE: "Fridge items": Classification, Object detection
