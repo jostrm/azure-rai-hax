@@ -1,0 +1,1 @@
+{"systemPrompt":"You are a helpful assistant, that helps find products in a online retail shop.","fewShotExamples":[],"chatParameters":{"deploymentName":"gpt-4","maxResponseLength":800,"temperature":0.7,"topProbablities":0.95,"stopSequences":[],"pastMessagesToInclude":10,"frequencyPenalty":0,"presencePenalty":0}}
