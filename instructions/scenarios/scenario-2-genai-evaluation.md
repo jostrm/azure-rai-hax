@@ -71,20 +71,51 @@ You could see how your flow works by e.g.using the **chat** functionality (make 
 Note that some of the questions in the test file actually ask about customer information, which you don't have at this stage in your prompt flow since it is auto generated based solely on the product-index. So it's normal if some of the metrixs are impacted. We will fix it in the following tasks.
 
 # Task 6:Create a prompt flow for multi-indexes
-Repeat Task 3 and create another prompt flow based on your product-data index, give it a name e.g. "Multi index flow". We will modify it later on and add the customer index as well.
+Repeat Task 3 and create another prompt flow based on your product-data index, give it a name e.g. "Multi index flow". We will modify it and have both `product index` the `customer index` as well.
 
-The step to add the customer index is a great exercise to learn how prompt flow work. You need to clone the step of `RetrieveDocuments` and differentiate them by calling them e.g `"RetrieveDocumentsCustomer"` and `"RetrieveDocumentsProduct"`. Make sure you have the right index name in the "input" of these steps.
+The step to add the `customer index` is a great exercise to learn how prompt flow work. You need to clone (create a new `Index Lookup` via `+More Tooles`) the step of `querySearchResource` and differentiate them by calling them e.g `"RetrieveDocumentsCustomer"` and `"RetrieveDocumentsProduct"` or similar. Make sure you have the right index name in the "input" of these steps.
 
-`"FormatRetrievedDocuments"` is the step you need to do some slight code changes. Some hints/common mistakes:
+The last promptflow actity `generateReply` should look like below: 
+
+```markdown
+user:
+## Retrieved Product Documents 
+{{inputs.documentation}}
+## Retrieved Customer info Documents 
+{{inputs2.documentation}}
+## User Question
+{{inputs.query}}
+
+```
+Note that we have added the below part: 
+```markdown
+## Retrieved Customer info Documents 
+{{inputs2.documentation}}
+
+```
+
+Note that the input variable `input2` can be set to the value `${formatCustomerInfoChunks.output}`
+
+## Q:How to build the activity boxes to end up with an extra input variable? 
+You need 3 or 4 activity boxes. You can inspect current flow from `querySearchResource`, `chunkDocuments`  ,`selectChunks`, `formatCustomerInfoChunks` to get an idea.
+To try and figure out this, is a good exercise to learn PromptFlow. 
+
+But, if you want to have the answer directly - look at the bottom on this page, where it says `Spoiler alert`. 
+
+### Option A: Create a "clone" of `formatGenerateReplyInputs`
+- Tip: Increase your maxTokens variable in the inputs (to e.g. 10000), sinch bringing in more info to context
+
+### Option B: Create a Python activity in the promptflow, with a loop to merge both "selectedChunks"
+`formatGenerateReplyInputs` is the step you need to do some slight code changes. Some hints/common mistakes:
 1. Check that you have both the retrieved customer document and retrieved product document ready from the previous steps in the inputs.
 2. Modify the for loop in the code so that it actually loops through both customer and product document.
 3. increase your maxTokens variable in the inputs (to e.g. 10000).
 4. Feel free to run a notebook on the side to verify your method and check what value the function actually outputs. This in combination of running your boxes one by one (as described in Task4) is useful to help you understand what's going on with your code.
 
+### Test your multi-index promptflow
 You could test your promptflow by asking either product related or customer related qustions. You could even combine them in the same question like 
-- Q1) "How much does TrailMaster cost and what was the purchase history of John Smith?". 
-- Q2) What products did John Smith buy and what other tents exists besides what John Smith bought? 
-- Q3) Please list all top 15 most expensive products? 
+- Q1) What products did John Smith buy and what other tents exists besides what John Smith bought? 
+- Q2) List all tents avaialble to buy?
 
 Now the flow is grounded with both customer and product data.
 
@@ -120,6 +151,11 @@ Extra points if all available tools and metrics is analysed, and its meaning exp
 
 ## Generative AI - Evaluation
 - https://learn.microsoft.com/en-us/azure/ai-studio/concepts/evaluation-approach-gen-ai
+
+
+## SPOILER ALERT: TASK 6) This is how a promptflow can look like
+
+![Alt text](./images/scenario-02-7.png)
 
 
 
