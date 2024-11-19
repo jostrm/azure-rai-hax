@@ -70,6 +70,12 @@ You could see how your flow works by e.g.using the **chat** functionality (make 
 
 Note that some of the questions in the test file actually ask about customer information, which you don't have at this stage in your prompt flow since it is auto generated based solely on the product-index. So it's normal if some of the metrixs are impacted. We will fix it in the following tasks.
 
+## Why add another index? 
+If you ask the below question, which related to `customer info`  rather than `product info`, the LLM connected to only `product info index` will have a hard timet to know the answer. It will not find the answer if you have a `keyword` based index on `product info` only. 
+- What purchases did Sarah Lee make, and at what price point?
+
+Hence, multi-index is needed.
+
 # Task 6:Create a prompt flow for multi-indexes
 Repeat Task 3 and create another prompt flow based on your product-data index, give it a name e.g. "Multi index flow". We will modify it and have both `product index` the `customer index` as well.
 
