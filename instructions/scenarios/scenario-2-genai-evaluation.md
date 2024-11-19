@@ -12,7 +12,7 @@ In this lab we will explore the generative AI evaluation dashboard in Azure AI S
 
 DOCS - Evaluation in AI Studio: https://learn.microsoft.com/en-us/azure/ai-studio/concepts/evaluation-approach-gen-ai
 
-### Solution scenario - "conceptiual view"
+### Solution scenario - "conceptual view"
 A conceptual view - to put the lab in context. Below is a possible scenario, that also includes a Chatbot front end.
 
 ![Alt text](./images/scenario-02-1.png)
@@ -31,18 +31,22 @@ https://youtu.be/3Fz8FEujD1U?feature=shared&t=1762
 
 
 # Task 1:Set up your project in Azure AI Studio
-As prerequisite for this lab you need to set up a project in Azure AI Studio(https://ai.azure.com/) and provision the required resources.
+As prerequisite for this lab you need to set up a project in Azure AI Foundry (formerly named Azure AI Studio) (https://ai.azure.com/) and provision the required resources.
 
 Make sure you have created the following resources:
 - An Azure OpenAI resource
 - An AI search resource
   
-You'll need to deploy a chat completions model (e.g. GPT-3.5-turbo 1106) and a text embedding model (e.g. text-embedding-ada-002). Do this in the "deployment" tab in your AI studio project.
+You will need to deploy: 
+- Chat completions model (e.g. GPT-3.5-turbo 1106)
+- Text embedding model (e.g. text-embedding-ada-002). 
+
+To Deploy the Models this will be under "Models + Endpoints" under the My Assets section or the Deployments. 
 
 # Task 2:Build the search indexes using the playground 
 1. Go to **Tools-->Playground** in the sidebar. You will use the built-in "**Add your data**" functionality to add your data sources and build an index for it in Azure AI search.
-2. Click on "'**+Add a new data source**" button, select "Upload files" where you choose all the documents in the customer folder called `1-customer-info`. Build an index called e.g. `customer-index` An example question to test the RAG works is "What did John Smith buy?", but feel free to explore other questions by looking at Customer data files.
-3. After the process finishes, you could test your chatbox in the playground by providing question such as "What did John Smith buy?". The answer should provide several purchases, suich as 2 TrailMaster X4 Tents. You could take a look at the citations, look at product documents and ask questions accordingly to test that your RAG application is working.
+2. Click on "'**+Add a new data source**" button, select "Upload files" where you choose all the documents in the customer folder called `1-customer-info`. Build an index called e.g. `customer-index`. An example question to test the RAG works is "What did John Smith buy?", but feel free to explore other questions by looking at Customer data files.
+3. The indexing process can take some time. After the process finishes, you could test your chatbox in the playground by providing question such as "What did John Smith buy?". The answer should provide several purchases, suich as 2 TrailMaster X4 Tents. You could take a look at the citations, look at product documents and ask questions accordingly to test that your RAG application is working.
 4. Repeat step 2-3 but this time build another index called e.g. `product-index` using product data in folder: `3-product-info`. An example question to test the RAG works is "How much does TrailMaster cost?". The answer should provide a price with a reference to the data that you have grounded the application with in the previous step.
 
 ![Alt text](./images/scenario-02-4.png)
@@ -153,10 +157,14 @@ Extra points if all available tools and metrics is analysed, and its meaning exp
 
 # RESOURCES
 ## RAI Overview
-- https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai?view=azureml-api-2
+- [What is Responsible AI?
+](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai?view=azureml-api-2)
 
+##  
+- [Measure and mitigate risks for Generative AI App in Azure AI Studio](https://learn.microsoft.com/en-us/training/modules/measure-mitigate-risks-azure-ai-studio/)
 ## Generative AI - Evaluation
-- https://learn.microsoft.com/en-us/azure/ai-studio/concepts/evaluation-approach-gen-ai
+- [Evaluation of generative AI applications
+](https://learn.microsoft.com/en-us/azure/ai-studio/concepts/evaluation-approach-gen-ai)
 
 
 ## SPOILER ALERT: TASK 6) This is how a promptflow can look like
