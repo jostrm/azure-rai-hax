@@ -157,12 +157,14 @@ Extra points if all available tools and metrics is analysed, and its meaning exp
 
 # RESOURCES
 ## RAI Overview
-- []https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai?view=azureml-api-2
+- [What is Responsible AI?
+](https://learn.microsoft.com/en-us/azure/machine-learning/concept-responsible-ai?view=azureml-api-2)
 
 ##  
 - [Measure and mitigate risks for Generative AI App in Azure AI Studio](https://learn.microsoft.com/en-us/training/modules/measure-mitigate-risks-azure-ai-studio/)
 ## Generative AI - Evaluation
-- [](https://learn.microsoft.com/en-us/azure/ai-studio/concepts/evaluation-approach-gen-ai)
+- [Evaluation of generative AI applications
+](https://learn.microsoft.com/en-us/azure/ai-studio/concepts/evaluation-approach-gen-ai)
 
 
 ## SPOILER ALERT: TASK 6) This is how a promptflow can look like
